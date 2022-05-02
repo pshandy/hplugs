@@ -1,0 +1,23 @@
+name: Hplug
+main: com.maxharmony.hplug.Hplug
+version: 1.0
+author: maxharmony
+commands:
+  me:
+    usage: /me [action]
+    description: Performs an action
+  do:
+    usage: /do [text]
+    description: Write from a third party
+  try:
+    usage: /try [text]
+    description: Successful / Unsuccessful
+  m:
+    usage: /m [text]
+    description: Send a message
+  r:
+    usage: /r [text]
+    description: Answer
+permissions:
+  Hplug.use:
+    description: Permissions of op's
