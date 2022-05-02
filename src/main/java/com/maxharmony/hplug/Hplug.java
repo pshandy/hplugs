@@ -118,7 +118,6 @@ public class Hplug extends JavaPlugin{
 
         } else if (label.equalsIgnoreCase("r")) {
 
-        }
             if (args.length < 1)
                 return (false);
 
@@ -139,6 +138,8 @@ public class Hplug extends JavaPlugin{
                     Bukkit.getPlayer(targetUUID).sendMessage(ChatColor.GRAY + "[From " + ChatColor.YELLOW
                             + ((Player)sender).getName() + ChatColor.GRAY + "] " + ChatColor.YELLOW + message.toString());
                 }
+
+        }
 
         } else if (label.equalsIgnoreCase("m")) {
 
